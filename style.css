@@ -24,18 +24,22 @@ h1 {
 #dog {
   width: 50px;
   height: 50px;
-  background: brown;
+  background-image: url('dog.jpg'); /* 강아지 이미지 */
+  background-size: cover;
+  background-position: center;
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 50%;
 }
 
 .bone {
   width: 30px;
   height: 30px;
-  background: white;
+  background-image: url('bone.jpg'); /* 뼈다귀 이미지 */
+  background-size: cover;
+  background-position: center;
   position: absolute;
-  border-radius: 10px;
 }
+
+
